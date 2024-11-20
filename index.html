@@ -7,6 +7,7 @@
     <style>
         body {
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             height: 100vh;
@@ -20,12 +21,24 @@
         .message {
             font-size: 24px;
             font-weight: bold;
+            margin-bottom: 20px;
+        }
+        iframe {
+            border: none;
+            width: 560px;
+            height: 315px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <p class="message">Coming Soon</p>
+        <iframe 
+            src="https://www.youtube.com/embed/Iqr3XIhSnUQ?autoplay=1&controls=0&showinfo=0&loop=1&playlist=Iqr3XIhSnUQ" 
+            title="Video" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen>
+        </iframe>
     </div>
 </body>
 </html>
